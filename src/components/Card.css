@@ -1,0 +1,85 @@
+.project-card {
+  width: 18rem !important;
+  border: none !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+
+  background: linear-gradient(
+    135deg,
+    #0f172a, /* dark blue */
+    #312e81  /* deep purple */
+  ) !important;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(88, 28, 135, 0.45) !important;
+}
+
+/* Image */
+.image-wrapper {
+  overflow: hidden !important;
+}
+
+.image-wrapper img {
+  height: 180px !important;
+  width: 100%;
+  object-fit: cover !important;
+  transition: transform 0.4s ease !important;
+}
+
+.project-card:hover img {
+  transform: scale(1.08) !important;
+}
+
+/* Text */
+.project-title {
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+  color: #e5e7eb !important; /* light text */
+}
+
+.project-desc {
+  font-size: 0.9rem !important;
+  color: #cbd5f5 !important; /* soft lavender */
+}
+
+/* Tech list */
+.tech-list .list-group-item {
+  font-size: 0.85rem !important;
+  padding: 8px 16px !important;
+  border: none !important;
+
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: #e5e7eb !important;
+}
+
+/* Actions */
+.card-actions {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+/* Links */
+.card-link {
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  color: #a5b4fc !important; /* indigo accent */
+  transition: color 0.3s ease !important;
+}
+
+.card-link.secondary {
+  color: #e5e7eb !important;
+}
+
+.card-link:hover {
+  color: #c084fc !important; /* purple hover */
+  text-decoration: underline !important;
+}
+span{
+    text-shadow: 0 0 0px #000000;
+}

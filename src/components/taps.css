@@ -1,0 +1,18 @@
+.nav-link {
+    color: oklch(87.2% 0.01 258.338) !important;
+        font-weight: bold !important;
+        
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color:white !important;
+        background-color: oklch(58.5% 0.233 277.117) !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.projects-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))!important;
+    gap: 25px !important;
+}
