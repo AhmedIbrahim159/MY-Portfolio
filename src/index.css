@@ -3,7 +3,7 @@
 .hero{width: 100%;
     min-height: 100vh;
    
-    background-image: url('../src/assets/b.png');
+    background-image: url('./assets/b.png');
     background-size: cover;
    
     background-position: center;
