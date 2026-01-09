@@ -73,7 +73,7 @@ function About() {
                 Certifications
               </Link>
               <Link
-                to="https://drive.google.com/drive/folders/191KPP446og6NJ7fjjPuDk4OyJaLxNms0?usp=drive_link"
+                to="https://drive.google.com/file/d/1o1MgJ9Df4hiB_hitRr-0IcY1jXg30dmH/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" ink border border-indigo-600 text-indigo-800 hover:bg-indigo-100 hover:text-white px-6 py-3 rounded-lg font-semibold transition duration-300 "
